@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Class</title>
+    <link href="../src/css/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hover, Active, Focus -->
+    <button
+      class="bg-amber-500 text-white px-4 py-2 m-[10px_0_0_10px] rounded cursor-pointer hover:bg-amber-700 hover:opacity-7"
+    >
+      Hover Me
+    </button>
+    <button
+      class="bg-amber-500 text-white px-4 py-2 m-[10px_0_0_10px] rounded cursor-pointer active:bg-amber-700 active:opacity-75"
+    >
+      Active Me
+    </button>
+    <button
+      class="bg-amber-500 text-white px-4 py-2 m-[10px_0_0_10px] rounded cursor-pointer focus:bg-amber-700 focus:opacity-75"
+    >
+      Hover Me
+    </button>
+
+    <!-- Child Element -->
+    <ul>
+      <li class="odd:text-red-500 even:text-blue-500">item 1</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 2</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 3</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 4</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 5</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 6</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 7</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 8</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 9</li>
+      <li class="odd:text-red-500 even:text-blue-500">item 10</li>
+    </ul>
+
+    <!-- Disabled -->
+    <button
+      disabled
+      class="w-20 h-10 bg-purple-500 text-white disabled:bg-red-500 disabled:cursor-not-allowed"
+    >
+      button
+    </button>
+
+    <!-- Group -->
+    <div class="group p-5 border-2 mt-3">
+      <h1 class="text-3xl font-semibold group-hover:text-green-600">Muhammad Jamalullail</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+        perferendis accusamus eligendi natus provident assumenda aliquid
+        perspiciatis, officiis deserunt reiciendis similique nam ea minus a
+        ducimus tempore doloremque numquam deleniti sint itaque. Blanditiis
+        corrupti perspiciatis qui consequatur harum voluptates quas natus, quae
+        dignissimos animi fugiat repellendus veniam officia sit assumenda
+        voluptatum suscipit, atque dolores optio. Praesentium, perspiciatis
+        molestiae explicabo quae commodi laudantium quis veniam quas cupiditate
+        sit iusto qui totam ducimus nobis doloremque eligendi consectetur
+        distinctio ipsam nemo minus adipisci ipsa neque. Rerum accusantium autem
+        dicta aliquid, recusandae libero eveniet magnam nesciunt at delectus
+        voluptatibus, debitis quia quod animi numquam.
+      </p>
+      <button class="bg-blue-500 text-white font-semibold rounded px-6 py-2 cursor-pointer ">Invit</button>
+    </div>
+  </body>
+</html>
